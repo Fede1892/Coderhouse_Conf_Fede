@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: 'Poppins', sans-serif;
+    margin: 0,8cm;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    font-weight:normal;
+    font-size: 2cm;
+    font-family: Impact;
+    font-style: oblique;
+    display: flex; 
+}
+
+header a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;;
+    background-color: #E5F876;
+    padding: 10px 24px;
+    border: round 2px #E5F876 ;
+    border-radius: 8px;
+    display: inline-flex;
+    box-shadow: 0px 0px 10px 0px #E5F876
+}
+
+
+
+main h3{
+    color: #E5F876 ;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+main p{
+    color: lightgray;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+main{
+    height: 20vh;
+    display: block;
+}
+
+
+h2{
+    color: #E5F876 ;
+    font-weight: bold;
+    font-size:xx-large;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: grid;   
+}
+
+section{
+    display: grid;
+}
+
+section div ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;  
+    
+}
+
+section button {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5F876;
+    border: round 2px #E5F876;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #E5F876;
+}
+
+section a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
+
+section article div{
+    padding: 60px 60px ;
+    justify-content: center;
+    display: grid;
+}
+
+h4{
+    color: #E5F876 ;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;   
+}
+    
+h5{
+    color: #E5F876 ;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;   
+}
+
+footer section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#E5F876;
+    background: rgb(37, 37, 37);
+}
+
+.contact-container{
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    gap: 1.5rem;
+    background-color: rgb(0,0,0);
+    box-shadow: 0 0 1rem hsla(37, 37, 37, 17%);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.form-container{
+    padding: 20px ;
+
+}
+
+.form-container h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.contact-form{
+    display: grid;
+    row-gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgb(37, 37, 37);
+    padding: 10px ;
+    font-size: 0.9rem;
+    color:#E5F876 ;
+    border-radius: 0.4rem;
+}
+
+.contact-form textarea{
+    resize: none;
+    height: 200px;
+}
+
+.contact-form .send-button{
+    border: none;
+    outline: none;
+    background: rgb(37, 37, 37);
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif ;
+}
+
+
+.contact-form .send-button:hover{
+    background: hsl(37,37,37);
+    transition: 0.3s all linear;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+footer article div{
+    background: #E5F876;
+}
+
+div .social-container{
+    padding: 5px;
+    border-radius: 0.4rem;
+}
