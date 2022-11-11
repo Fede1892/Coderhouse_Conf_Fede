@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: 'Poppins', sans-serif;
+    margin: 0,8cm;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    font-weight:normal;
+    font-size: 3cm;
+    font-family: Impact;
+    font-style: oblique;
+    display: flex; 
+    margin: 40px 5px;
+}
+
+header a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;;
+    background-color: #E5F876;
+    padding: 10px 24px;
+    border: round 2px #E5F876 ;
+    border-radius: 8px;
+    display: inline-flex;
+    box-shadow: 0px 0px 10px 0px #E5F876
+}
+
+main h3{
+    color: #E5F876;
+    font-size: xx-large;
+}
+
+main button {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5F876;
+    border: round 2px #E5F876;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #E5F876;
+    text-decoration: none;
+}
+
+.codermember{
+    padding: 20px;
+}
+
+.codergraduate{
+    padding: 20px;
+}
+
+.general{
+    padding: 20px;
+}
+
+.button1{
+    padding: 32px;
+}
+
+.button2{
+    padding: 32px;
+}
+
+.button3{
+    padding: 32px;
+}
+
+.coderbenefits{
+    margin: 50px 50px;
+}
+
+.coderbenefits h2{
+    color: #E5F876;
+}
+
+section p{
+    color: lightgray;
+
+}
+
+footer article div{
+    background: #E5F876;
+}
+
+h5{
+    color: #E5F876;
+}
